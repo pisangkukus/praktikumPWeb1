@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 0.1px solid black; */
+  box-sizing: border-box;
+}
+.main-product {
+  width: 1300px;
+  height: 760px;
+  /* border: 3px solid black; */
+}
+/* bagian kiri: 384 x 663 */
+/* bagian kanan: 576 x 663 */
+
+.main-product .kiri {
+  height: 663px;
+}
+
+.main-product .kanan {
+  height: 663px;
+}
+
+.main-product .kiri .small-img {
+  height: 75px;
+}
+
+.kiri .favoritkanP
+
+/* kanan */
+.kanan .product-title {
+  font-size: 10px;
+}
+
+.kanan .pengiriman .keterangan {
+  font-size: 0.8rem;
+}
+.kanan .pengiriman .lokasi {
+  font-size: 0.9rem;
+}
+.kanan .ubah-alamat {
+  font-size: 0.75rem;
+}
+
+.kanan .nama-kurir {
+  font-size: 12px;
+}
+
+.kanan .lama-pengiriman {
+  font-size: 12px;
+}
+
+.kanan .harga-pengiriman p {
+  font-size: 14px;
+}
+
+.kanan .tombol {
+  height: 52px;
+}
+
+.kanan .gambar-aplikasi {
+  height: 70px;
+}
+.kanan .aplikasi p {
+  font-size: 0.8rem;
+  color: rgb(133, 130, 130);
+}
