@@ -20,11 +20,11 @@
   height: 663px;
 }
 
-.main-product .kiri .small-img {
-  height: 75px;
+.kiri .bagikan:hover,
+.favoritkan:hover {
+  color: red;
+  cursor: pointer;
 }
-
-.kiri .favoritkanP
 
 /* kanan */
 .kanan .product-title {
@@ -38,14 +38,11 @@
   font-size: 0.9rem;
 }
 .kanan .ubah-alamat {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
+  border-bottom: 1px dashed black;
 }
 
 .kanan .nama-kurir {
-  font-size: 12px;
-}
-
-.kanan .lama-pengiriman {
   font-size: 12px;
 }
 
@@ -53,10 +50,17 @@
   font-size: 14px;
 }
 
-.kanan .tombol {
+.kanan button {
   height: 52px;
+  transition: none;
+}
+.kanan button:hover {
+  background-color: rgb(199, 198, 198);
 }
 
+.kanan .beli-sekarang:hover {
+  background-color: #a52532;
+}
 .kanan .gambar-aplikasi {
   height: 70px;
 }
